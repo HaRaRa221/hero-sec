@@ -11,19 +11,19 @@ function App() {
         <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center" alt="hero" src={Robot} />
         <div class="text-center lg:w-5/12 w-full">
           <h1 className="my-4 text-5xl font-bold leading-tight">
-            Turn your designs into production-ready frontend
+            File taxes for your NGO in a fast and easy way
           </h1>
-          <p className="text-2xl mb-8">
-            Ship products 5-10x faster with your existing design tools, tech stacks & workflows!
+          <p className="text-2xl">
+            Fill out questions get your taxes done with AI generated forms and get your taxes done in minutes.
           </p>
           <div className="flex justify-center mx-auto">
             <button
               className="hover:underline bg-white text-gray-800 font-bold rounded-full  py-4 px-8">
-              View Projects
+              Open Chatbot
             </button>
             <button
               className="ml-4 hover:underline bg-white text-gray-800 font-bold rounded-full  py-4 px-8">
-              Plugins
+              About TaxBot
             </button>
           </div>
         </div>
