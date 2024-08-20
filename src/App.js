@@ -18,11 +18,11 @@ function App() {
           </p>
           <div className="flex justify-center mx-auto">
             <button
-              className="hover:underline bg-white text-gray-800 font-bold rounded-full  py-4 px-8">
+              className="hover:underline bg-green-200 text-gray-800 font-bold rounded-full  py-4 px-8">
               Open Chatbot
             </button>
             <button
-              className="ml-4 hover:underline bg-white text-gray-800 font-bold rounded-full  py-4 px-8">
+              className="ml-4 hover:underline bg-green-200 text-gray-800 font-bold rounded-full  py-4 px-8">
               About TaxBot
             </button>
           </div>
