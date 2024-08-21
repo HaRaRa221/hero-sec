@@ -1,12 +1,11 @@
-import Nature from './collection/Nature.jpg';
+
 import './App.css';
 import React from 'react';
 
 function App() {
   return (
-    <div className="w-screen h-screen text-white bg-gradient-to-r from-teal-200 to-teal-500">
+    <div className="bg-cover bg-center ..." style={{ backgroundImage: 'url(...)' }}>
       <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-        <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center" alt="hero" src={Nature} />
         <div class="text-center lg:w-5/12 w-full">
           <h1 className="my-4 text-5xl font-bold leading-tight">
             File taxes for your NGO in a fast and easy way
