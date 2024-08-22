@@ -4,7 +4,10 @@ module.exports = {
     './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: { 'nat-image': "url('src/collection/Nature.jpg')" },
+        
+    },
   },
   plugins: [],
 }

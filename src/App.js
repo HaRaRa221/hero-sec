@@ -4,7 +4,7 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="bg-cover bg-center ..." style={{ backgroundImage: 'url(...)' }}>
+    <div class="bg-[('/collection/Nature.jpg')]">
       <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
         <div class="text-center lg:w-5/12 w-full">
           <h1 className="my-4 text-5xl font-bold leading-tight">
@@ -13,16 +13,6 @@ function App() {
           <p className="text-base">
             Fill out questions get your taxes done with AI generated forms and get your taxes done in minutes.
           </p>
-          <div className="flex justify-center mx-auto">
-            <button
-              className="hover:underline bg-green-200 text-gray-800 font-bold rounded-full  py-4 px-8">
-              Open Chatbot
-            </button>
-            <button
-              className="ml-4 hover:underline bg-green-200 text-gray-800 font-bold rounded-full  py-4 px-8">
-              About TaxBot
-            </button>
-          </div>
         </div>
       </div>
     </div >
