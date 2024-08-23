@@ -4,7 +4,8 @@ import React from 'react';
 
 function App() {
   return (
-    <div class="bg-[('/collection/Nature.jpg')]">
+    <div class= "bg-cover bg-center h-screen"
+        style="background-image: url('/src/collection/Nature.jpg');">
       <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
         <div class="text-center lg:w-5/12 w-full">
           <h1 className="my-4 text-5xl font-bold leading-tight">
